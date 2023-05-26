@@ -1,0 +1,2 @@
+#!/bin/sh
+accelerate launch --config_file config.yml train_unconditional.py --output_dir=model/ --train_data_dir ../../datasets/terrain/images/ --resolution=256 --random_flip --train_batch_size 4 --eval_batch_size 4 --gradient_accumulation_steps=1 --learning_rate=1e-4 --lr_warmup_steps=500 --mixed_precision=no

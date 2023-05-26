@@ -1,0 +1,4 @@
+datasets/terrain/images/*.jpg
+train/terrain/model/
+venv/
+train/terrain/train_unconditional.py
