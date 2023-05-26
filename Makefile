@@ -10,3 +10,4 @@ learn:
 	sh train.sh
 output:
 	cd generate/ && python generate.py
+all: dataset learn output
