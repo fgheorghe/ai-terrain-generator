@@ -2,6 +2,8 @@ An experimental unconditional AI terrain generator.
 
 Dataset based on: https://www.usgs.gov/programs/national-geospatial-program/national-map
 
+A trained version is available here: https://huggingface.co/fgheorghe/terrain-generator
+
 # Install dependencies
 
 Download to train/terrain/: https://raw.githubusercontent.com/huggingface/diffusers/main/examples/unconditional_image_generation/train_unconditional.py
