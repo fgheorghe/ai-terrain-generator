@@ -27,3 +27,9 @@ make dataset
 ```bash 
 make learn
 ```
+
+# Generate
+
+```bash
+make output
+```

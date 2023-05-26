@@ -8,3 +8,5 @@ learn:
 	cd train/terrain/ && \
 	mkdir -p model && \
 	sh train.sh
+output:
+	cd generate/ && python generate.py
